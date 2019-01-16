@@ -3,7 +3,7 @@ import Columns from './Columns';
 
 function Table() {
   return (
-    <div>
+    <div className="App">
       <table>
           <tbody>
               <tr>

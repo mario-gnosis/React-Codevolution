@@ -12,7 +12,7 @@ function FRInput() {
 */
 const FRInput = React.forwardRef( (props, ref) => {
     return (
-      <div>
+      <div className="App">
         <input type="text" ref={ref}/>
       </div>
     )

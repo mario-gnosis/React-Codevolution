@@ -6,7 +6,7 @@ export class ClassClick extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="App">
          <h4>Exemplo de click com Class (console)</h4>
           <button onClick={this.clickHandler}>Click me</button>
       </div>

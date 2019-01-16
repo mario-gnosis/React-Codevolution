@@ -14,7 +14,7 @@ class FRParentInput extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
           <FRInput ref={this.inputRef}/>
           <button onClick={this.clickHandler}>Focus input</button>
       </div>

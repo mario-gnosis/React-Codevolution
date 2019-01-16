@@ -7,7 +7,7 @@ function FunctionClick() {
     }
     //Se colocar assim onClick={clickHandler()}, o botão já vem clicado, pois esse é um erro comum entre os iniciantes
   return (
-    <div>
+    <div className="App">
         <h4>Exemplo de click com Function </h4>
         <button onClick={clickHandler}>Click</button>
     </div>

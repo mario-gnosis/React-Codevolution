@@ -6,7 +6,7 @@ function Columns() {
 
   return (
 
-    <React.Fragment>
+    <React.Fragment className="App">
         <td>Name</td>
         <td>Mário</td>      
     </React.Fragment>

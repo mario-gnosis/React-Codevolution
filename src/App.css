@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 30px;
 }
 
 .App-logo {
@@ -30,3 +31,27 @@
     transform: rotate(360deg);
   }
 }
+.cor{
+  color: #5b66ec;
+}
+
+button{
+  border-radius: 8px;
+  width: 20%;
+  height: 28px;
+  background: #FC466B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tabela{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+label{
+  margin-right: 5px;
+ }
+ .space{
+   margin-top: 7px;
+ }
